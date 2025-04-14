@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleep Tracker</title>
+</head>
+<body>
+  <h1>Sleep Tracker</h1>
+  
+  <h2>How many hours did you sleep?</h2>
+  <input type="number" id="slepthours" placeholder="Enter hours slept">
+  
+  <h2>What time did you go to bed and Wake up?</h2>
+  <input type="number" id="bedtime" placeholder="Bedtime?(0-23)">
+  <input type="number" id="risetime" placeholder = "The time you woke?(0-23)">
+  
+  <h2>How did you sleep?</h2>
+  <div id="sleepContainer">
+    <button id="sleptBad" class="buttons">Bad</button>
+    <button id="sleptAverage" class="buttons">Average</button>
+    <button id="sleptGood" class="buttons">Good</button>
+   </div>
+  <h1 id="sleepQuality"></h1>
+    <p id="output"></p>
+  
+  <div class="footer">
+        <p>Copyright, 2025, Khalil Owens</p>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
