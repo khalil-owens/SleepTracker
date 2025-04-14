@@ -1,1 +1,12 @@
+*{
+  text-align: center;
+}
 
+.footer {
+    clear: both;
+    margin: 0px;
+    font-size: large;
+    text-align: center;
+    color: rgb(41, 59, 198);
+    padding: 10px;
+}
